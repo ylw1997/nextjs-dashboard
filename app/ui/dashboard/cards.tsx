@@ -1,10 +1,19 @@
+/*
+ * @Author: yangliwei 1280426581@qq.com
+ * @Date: 2024-06-13 11:34:33
+ * @LastEditTime: 2024-06-13 16:10:09
+ * @LastEditors: yangliwei 1280426581@qq.com
+ * @FilePath: \nextjs-dashboard\app\ui\dashboard\cards.tsx
+ * Copyright (c) 2024 by yangliwei, All Rights Reserved. 
+ * @Description: 
+ */
 import {
   BanknotesIcon,
   ClockIcon,
   UserGroupIcon,
   InboxIcon,
 } from '@heroicons/react/24/outline';
-import { lusitana } from '@/app/ui/fonts';
+import { lusitana } from '@/app/ui/font';
 
 const iconMap = {
   collected: BanknotesIcon,
